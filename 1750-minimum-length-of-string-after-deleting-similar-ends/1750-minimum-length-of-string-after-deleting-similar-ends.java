@@ -17,6 +17,7 @@ class Solution {
 				end--;
 			}
 		}
+        System.gc();
 		return end - start + 1;
     }
 }
