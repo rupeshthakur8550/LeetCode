@@ -1,8 +1,5 @@
 class Solution {
     public int minimumLength(String s) {
-        if (s.isEmpty()) {
-            return 0;
-        }
         return calculateLength(s);
     }
 
@@ -17,7 +14,6 @@ class Solution {
 				end--;
 			}
 		}
-        System.gc();
 		return end - start + 1;
     }
 }
