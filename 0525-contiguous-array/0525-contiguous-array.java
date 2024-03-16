@@ -14,6 +14,7 @@ class Solution {
                 mp.put(sum, i);
             }
         }
+         System.gc();
         return subArrayLength;
     }
 }
