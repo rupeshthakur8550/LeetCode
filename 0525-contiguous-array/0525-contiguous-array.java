@@ -17,6 +17,7 @@ class Solution {
                 result = Math.max(result, i - mp[current]+1);
             }
         }
+        System.gc();
         return result;
     }
 }
