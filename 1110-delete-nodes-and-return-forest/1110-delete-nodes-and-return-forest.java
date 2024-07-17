@@ -22,6 +22,7 @@ class Solution {
         for(int n : to_delete)
             set[n] = true;
         dfs(root, true);
+        System.gc();
         return res;
     }   
 
