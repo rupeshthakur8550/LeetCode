@@ -26,7 +26,7 @@ class Solution {
                 res.add(minRow);
             }
         }
-
+        System.gc();
         return res;
     }
 }
