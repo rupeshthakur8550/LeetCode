@@ -16,7 +16,7 @@ class Solution {
             int colPos = colOrder[i];
             matrix[rowPos][colPos] = i;
         }
-        
+        System.gc();
         return matrix;
     }
     // Helper function to perform topological sorting
