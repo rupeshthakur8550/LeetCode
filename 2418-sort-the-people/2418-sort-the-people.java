@@ -14,6 +14,7 @@ class Solution {
                 }
             }
         }
+        System.gc();
         return names;
     }
 }
