@@ -12,6 +12,7 @@ class Solution {
                 return str;
             }
         }
+        System.gc();
         return "";
     }
 }
